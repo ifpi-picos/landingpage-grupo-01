@@ -30,4 +30,4 @@ O projeto oferece uma perspectiva abrangente sobre as lutas e relações de gên
 * **Desenvolvedor Full stack** - [Edimilson Borges](https://github.com/EdimilsonBorges)
 * **Desenvolvedora Front-end** - [Katelyn Moura](https://github.com/KatMoura)
 * **Designer** - [Maria Eduarda](https://github.com/Mezbb)
-* **Produtora de conteúdo** - [Ayla de Jesus Moura]
+* **Produtora de conteúdo** - Ayla de Jesus Moura
