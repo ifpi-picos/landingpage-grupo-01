@@ -1,8 +1,40 @@
 :root {
-    --rgb: #F8DE84;
+    --primary: #F8DE84;
+    --secondary: #FDF6E6;
+    --smallText: #6A6A6A;
 }
 
-.bg-color{
-    --bs-bg-opacity:1;
-     background-color: var(--rgb)!important;
+body{
+    font-family: Roboto;
 }
+
+/* reescrevendo botao do bootstrap */
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #F9C06A;
+    --bs-btn-border-color: #f8ad3d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #f8ad3d;
+    --bs-btn-hover-border-color: #F9C06A;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F9C06A;
+    --bs-btn-active-border-color: #F9C06A;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #F9C06A;
+    --bs-btn-disabled-border-color: #F9C06A;
+  }
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: var(--primary) !important;
+  }
+  .bg-header{
+    background-color: var(--secondary);
+  }
+ 
+
+  .small-text{
+    color: var(--smallText);
+  }
