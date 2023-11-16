@@ -44,6 +44,10 @@ body {
   display: none !important;
 }
 
+.navbar-toggler{
+  border: none;
+}
+
 .projeto {
   text-align: center;
   padding: 4rem;
@@ -51,4 +55,40 @@ body {
 
 h5 {
   text-align: justify;
+}
+
+
+.galeria{
+  background-color:  #E7F8EE;
+   padding: 20px;
+}
+
+.titulo-galeria{
+  font-weight: bolder;
+}
+
+.texto-galeria{
+  text-align: justify;
+  padding: 1.5rem;
+}
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagens img {
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+@media (max-width: 768px) {
+  h5{
+    font-size: 1rem;
+    padding-bottom: 5rem;
+    text-align: justify;
+    width: 100%;
+  }
+  
 }
