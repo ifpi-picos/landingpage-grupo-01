@@ -22,7 +22,7 @@ body{
     --bs-btn-active-border-color: #F9C06A;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #F9C06A;
+    --bs-btn-disabled-bg: #dfbc87;
     --bs-btn-disabled-border-color: #F9C06A;
   }
 
@@ -33,8 +33,13 @@ body{
   .bg-header{
     background-color: var(--secondary);
   }
- 
 
   .small-text{
     color: var(--smallText);
+  }
+  .bg-modal{
+    background-color: rgba(88, 86, 86,.8);
+  }
+  .ocultar-modal{
+    display: none !important;
   }
