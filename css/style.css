@@ -1,7 +1,8 @@
 :root {
-  --primary: #f8de84;
-  --secondary: #fdf6e6;
-  --smallText: #6a6a6a;
+  --primary: #F8DE84;
+  --secondary: #FDF6E6;
+  --bg-professores: #F3F4F8;
+  --smallText: #6A6A6A;
 }
 
 body {
@@ -155,6 +156,10 @@ h1{
 .icone{
   width: 250px;
   margin-left: 90px;
+}
+
+.bg-professores{
+  background-color: var(--bg-professores);
 }
 
 @media (max-width: 768px) {
