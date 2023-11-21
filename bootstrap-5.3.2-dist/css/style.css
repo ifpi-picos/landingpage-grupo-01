@@ -1,8 +1,0 @@
-:root {
-    --rgb: #F8DE84;
-}
-
-.bg-color{
-    --bs-bg-opacity:1;
-     background-color: var(--rgb)!important;
-}

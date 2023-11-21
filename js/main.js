@@ -1,32 +1,11 @@
-const btnEbook = document.getElementById("btnEbook");
-const btnCloseModal = document.getElementById("btn-close-modal");
-const btnCloseModal2 = document.getElementById("btn-close-modal-2");
-const modal = document.getElementById("modalSheet");
+const imagens = document.getElementById("imagens");
+const modalCarrousel = document.getElementById("modal-carrousel");
+const btnCloseModalCarrousel = document.getElementById("btn-close-modal-carrousel");
 
-btnEbook.addEventListener("click", () => {
-  modal.classList.remove("ocultar-modal");
+imagens.addEventListener("click", () => {
+  modalCarrousel.classList.remove("ocultar-modal");
 });
 
-btnCloseModal.addEventListener("click", () => {
-  modal.classList.add("ocultar-modal");
+btnCloseModalCarrousel.addEventListener("click", () => {
+  modalCarrousel.classList.add("ocultar-modal");
 });
-
-btnCloseModal2.addEventListener("click", () => {
-  modal.classList.add("ocultar-modal");
-});
-
-function expandirImagem(elemento) {
-  const divExpandida = document.createElement("div");
-  divExpandida.className = "expanded";
-
-  const imgExpandida = document.createElement("img");
-  imgExpandida.src = elemento.src;
-
-  divExpandida.appendChild(imgExpandida);
-
-  document.body.appendChild(divExpandida);
-
-  divExpandida.addEventListener("click", function () {
-    document.body.removeChild(divExpandida);
-  });
-}
