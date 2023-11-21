@@ -52,7 +52,7 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(252, 249, 49, 0.5);
 }
 
-.bg-body-tertiary {
+.navbar-light {
   --bs-bg-opacity: 1;
   background-color: var(--primary) !important;
 }
