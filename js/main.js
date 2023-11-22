@@ -9,3 +9,13 @@ imagens.addEventListener("click", () => {
 btnCloseModalCarrousel.addEventListener("click", () => {
   modalCarrousel.classList.add("ocultar-modal");
 });
+
+const carousel = document.getElementById('carouselIndicators');
+
+carousel.addEventListener('slide.bs.carousel', function (event) {
+  const activeCarousel = event.relatedTarget;
+  const img = activeCarousel.querySelector('img');
+  const src = img.getAttribute('src');
+  const modalImg = document.getElementById('modal-img');
+  modalImg.setAttribute('src', src);
+});
