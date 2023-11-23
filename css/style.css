@@ -257,6 +257,32 @@ img {
   border-radius: 20px;
 }
 
+footer {
+  background-color: #ffdf7e;
+  color: #130f0f;
+}
+
+#direitos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+}
+a{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: #ff9900;
+
+}
+a:hover{
+  color: #c57600;
+  text-decoration: underline;
+}
+
+
 @media (max-width: 768px) {
   h5 {
     font-size: 1.2rem;
