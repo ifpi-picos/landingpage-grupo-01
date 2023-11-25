@@ -245,11 +245,7 @@ img {
   height: 3rem;
   border-radius: 50%;
 }
-
-
-
 .container-btn-carrousel {
-
   width: 5rem;
 }
 
@@ -257,53 +253,41 @@ img {
   border-radius: 20px;
 }
 
-footer {
+ footer {
   background-color: var(--secondary);
   color: #130f0f;
-  padding: 20px 20px 20px 20px;
-
+  padding: 60px 20px 50px 110px !important
 }
 
 #logos{
-  display: flex;
   color: #575757;
   font-size: 16px;
-  flex-direction: column;
-  padding: 0px 0 20px 0;
-
 }
-a{
+.logos{
+  width: 150%;
+}
+.link-footer{
   display: flex;
   justify-content: center;
   text-decoration: underline;
   color: #ff9900;
-
 }
-a:hover{
+.link-footer:hover{
   color: #c57600;
   text-decoration: underline;
 }
-
-.contato {
+ .contato {
   display: flex;
   color: #575757;
-  align-items:flex-end;
   flex-direction:column;
-  padding: 10px 0 0 0; /* Reduzido de 30px para 10px */
   font-size: 16px;
-}
+} 
 .contato a{
   color: #575757;
   text-decoration: none;
   font-size: 16px;
-
 }
 
-.direitos{
-  font-size: 16px;
-  margin-right: 150px;
-  color: #575757;
-}
 .contato a span{
   text-decoration: underline;
 } 
@@ -311,6 +295,9 @@ a:hover{
   margin-right: 10px;
 }
 @media (max-width: 768px) {
+  .logos{
+    width: 80%;
+  }
   h5 {
     font-size: 1.2rem;
     text-align: justify;
@@ -348,11 +335,20 @@ a:hover{
   .direitos{
     margin: 35px 0 0 0;
   }
+
+  footer {
+    background-color: var(--secondary);
+    color: #130f0f;
+    padding: 50px 20px 50px 20px !important
+  }
 }
 
 @media (max-width:990px) {
   .img-logo {
     min-width: 100px;
     max-width: 250px;
+  }
+  .corporacao{
+    text-wrap: wrap !important;
   }
 }
