@@ -273,11 +273,10 @@ footer {
   display: flex;
   justify-content: center;
   text-decoration: underline;
-  color: #ff9900;
 }
 
 .link-footer:hover {
-  color: #c57600;
+  color: #ff9900; 
   text-decoration: underline;
 }
 
@@ -299,9 +298,16 @@ footer {
   margin-top: 15px;
 }
 
+.contato a:hover span {
+  color: #ff9900; 
+}
+
 .contato a i {
   margin-right: 10px;
   margin-top: 15px;
+}
+.contato a:hover i {
+  color: #ff9900;
 }
 .corporacao a{
   display: inline;
