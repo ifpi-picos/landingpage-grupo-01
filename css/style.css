@@ -296,10 +296,15 @@ footer {
 
 .contato a span {
   text-decoration: underline;
+  margin-top: 15px;
 }
 
 .contato a i {
   margin-right: 10px;
+  margin-top: 15px;
+}
+.corporacao a{
+  display: inline;
 }
 
 @media (max-width: 768px) {
@@ -360,9 +365,5 @@ footer {
   .img-logo {
     min-width: 100px;
     max-width: 250px;
-  }
-
-  .corporacao {
-    text-wrap: wrap !important;
   }
 }
